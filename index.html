@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Lending Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="user">
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact me</a></li>
+    </ul>
+  </nav>
+
+<header>
+  <button id="toggle" class="toggle">
+    <i class="fas fa-bars fa-2x"></i>
+  </button>
+
+  <h1>My Lending Page</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corrupti earum libero quasi suscipit temporibus illo nisi, beatae qui. Nostrum quod ab alias quos corporis deserunt? Fugiat pariatur facilis beatae?</p>
+
+  <button class="cta-btn" id="open">Sign Up</button>
+</header>
+
+<div class="container">
+  <h2>What is this landing page about?</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum ea velit maxime rem molestias ad, accusantium voluptatibus delectus necessitatibus possimus sed odit atque repellendus incidunt impedit architecto quaerat consequatur?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consectetur accusantium ipsa! Nesciunt, commodi eum. Illo cupiditate voluptatibus quam, nobis vel vitae doloremque maxime nam quaerat, obcaecati itaque eos explicabo.</p>
+
+  <h2>Tell me more</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio necessitatibus dignissimos nihil, nostrum distinctio facilis ipsum nobis sapiente tempora, ex laudantium perferendis deleniti, facere incidunt. Perferendis ab soluta earum deleniti eligendi, nostrum provident officiis, quasi dolore esse, voluptates iure voluptatum!</p>
+  <h2>Benefits</h2>
+  <ul>
+    <li>Lifetime Access</li>
+    <li>30 day money back</li>
+    <li>Full customer support </li>
+  </ul>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsam numquam quaerat repellendus veritatis totam, beatae quae, nostrum error quam illo asperiores est, dolorem similique eos repellat tempore voluptatum? Animi ipsum beatae minus, blanditiis mollitia veniam provident exercitationem impedit suscipit aspernatur culpa delectus magni ipsam, saepe laboriosam voluptatum ex quidem. Id repudiandae error cupiditate quam, vel atque quaerat nisi vitae perspiciatis illo porro voluptatem, sed ea. Suscipit aut ad praesentium?</p>
+
+</div>
+<!-- Modal -->
+<div class="modal-container" id="modal">
+  <div class="modal">
+    <button class="close-btn" id="close"><i class="fas fa-times"></i></button>
+    <div class="modal-header">
+      <h3>Sign Up</h3>
+    </div>
+      <div class="modal-content">
+        <p>Register with us to get support, offers and more</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Name</label>
+            <input class="form-input" type="text" id="name" placeholder="Enter name">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input class="form-input" type="email" id="email" placeholder="Enter email">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input class="form-input" type="password" id="password" placeholder="Enter password">
+          </div>
+          <div>
+            <label for="password2">Confirm password</label>
+            <input class="form-input" type="password" id="password2" placeholder="Enter password again">
+          </div>
+          <input type="submit" class="submit-btn" value="Submit">
+        </form>
+    </div>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
